@@ -21,8 +21,8 @@ class Athena:
     itemshop_hash: str = None
 
     def __init__(self) -> None:
-        print("Athena - Fortnite Item Shop Generator")
-        print("https://github.com/Liimiitz/Athena-FNAPI.com\n")
+        print("e")
+        print("e")
 
         if not self.LoadConfiguration():
             return
