@@ -1,0 +1,15 @@
+{
+    "language": "en",
+    "sendOnStart": false,
+    "fortniteAPI": {
+        "apiKey": "not-required"
+    },
+    "supportACreator": "Jacob-Lucado",
+    "twitter": {
+        "enabled": true,
+        "apiKey": "7vOPSIwqOhLXJTBNRdSZq1xgu",
+        "apiSecret": "ykyovoKvTSKK6wSA9P1g3SklWgRwvkMjbOaIUu6XZYp3kcTGu2",
+        "accessToken": "989798228-d33rk0BTemjcjSVtYxgNKK5BwkVDMaCz4oNCKrX3",
+        "accessSecret": "sXSEuKrkyfGd5r96Jp8FA5UoHMEWOqJOI1i4L3boLSc6n"
+    }
+}
