@@ -28,7 +28,6 @@ A [Fortnite-API API Key](https://fortnite-api.com/profile) is not required to ob
 
 Open `configuration_example.json` in your preferred text editor, fill the configurable values. Once finished, save and rename the file to `configuration.json`.
 
-- `delayStart`: Set to `0` to begin the process immediately
 - `language`: Set the language for the Item Shop data ([Supported Languages](https://fortnite-api.com/documentation))
 - `supportACreator`: Leave blank to omit the Support-A-Creator tag section of the Tweet
 - `twitter`: Set `enabled` to `false` if you wish for `itemshop.png` to not be Tweeted
