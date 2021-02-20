@@ -44,5 +44,6 @@ python itemshop.py
 
 ## Credits
 
+
 - Item Shop data provided by [Fortnite-API](https://fortnite-api.com/)
 - Original Creator: [EthanC](https://github.com/EthanC/Athena)
