@@ -144,7 +144,7 @@ class Athena:
         shopImage = Image.new("RGB", (((340 * width) - 30), (530 * height) + 350))
 
         try:
-            background = ImageUtil.Open(self, "background.png")
+            background = ImageUtil.Open(self, "me.jpg")
             background = ImageUtil.RatioResize(
                 self, background, shopImage.width, shopImage.height
             )
