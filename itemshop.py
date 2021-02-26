@@ -277,11 +277,11 @@ class Athena:
 
         try:
             layer = ImageUtil.Open(
-                self, f"./shopTemplates/{rarity.capitalize()}BG.png")
+                self, f"/new/{rarity.capitalize()}BG.png")
         except FileNotFoundError:
             log.warn(
                 f"Failed to open {rarity.capitalize()}BG.png, defaulted to Common")
-            layer = ImageUtil.Open(self, "./shopTemplates/CommonBG.png")
+            layer = ImageUtil.Open(self, "/new/CommonBG.png")
         card.paste(layer)
 
         icon = ImageUtil.Download(self, icon)
@@ -298,11 +298,11 @@ class Athena:
 
         try:
             layer = ImageUtil.Open(
-                self, f"./shopTemplates/{rarity.capitalize()}OV.png")
+                self, f"/new/{rarity.capitalize()}OV.png")
         except FileNotFoundError:
             log.warn(
                 f"Failed to open {rarity.capitalize()}OV.png, defaulted to Common")
-            layer = ImageUtil.Open(self, "./shopTemplates/CommonOV.png")
+            layer = ImageUtil.Open(self, "/new/CommonOV.png")
 
         card.paste(layer, layer)
 
