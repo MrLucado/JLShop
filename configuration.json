@@ -1,6 +1,6 @@
 {
     "language": "en",
-    "sendOnStart": false,
+    "sendOnStart": true,
     "fortniteAPI": {
         "apiKey": "not-required"
     },
